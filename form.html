@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="whole">
+    <h2>Login To Coding Market</h2> <br>
+    <div class="bone">
+    <label for="username" class="a">Email or Username</label> 
+    <input type="text" name="username" id="user" min="4" required> <br>
+    </div>
+    <div class="btwo">
+    <label for="password">Password</label> 
+    <input type="password" name="password" id="pass"  min="6" max="12" required> <br> <br>
+    </div>
+    <p id="incorrect">Incorrect username or password.Please try again</p>
+    <button id="login" onclick="get()">LOGIN</button>
+
+
+<script src="form.js"></script>
+
+
+</div>
+</body>
+</html>
